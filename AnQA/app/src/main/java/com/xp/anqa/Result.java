@@ -1,0 +1,28 @@
+package com.xp.anqa;
+
+/**
+ * Created by 井小普 on 2018/5/2.
+ * 映射服务器返回的结果
+ */
+
+public class Result {
+    private int code; // code码
+    private String text; // 信息
+
+    public int getCode() {
+        return code;
+    }
+
+    public void setCode(int code) {
+        this.code = code;
+    }
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
+
+}
